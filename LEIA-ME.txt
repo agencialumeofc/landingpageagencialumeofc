@@ -1,0 +1,34 @@
+SITE DA AGÊNCIA LUME
+====================
+
+Conteúdo da pasta:
+  index.html              página do site
+  assets/                 logo, ícones e imagem de compartilhamento
+  robots.txt              libera o site para o Google
+
+Suba a pasta inteira, mantendo essa estrutura. O index.html precisa
+ficar na raiz, ao lado da pasta assets.
+
+COMO COLOCAR NO AR (escolha um)
+
+1) Netlify (grátis, o mais rápido)
+   - Acesse app.netlify.com/drop
+   - Arraste esta pasta inteira para a página
+   - Pronto: o site ganha um link na hora. Crie uma conta para mantê-lo
+     no ar e ligar o seu domínio (Domain management).
+
+2) Hostinger, HostGator, Locaweb ou outra hospedagem
+   - Abra o Gerenciador de Arquivos e entre na pasta public_html
+   - Envie o index.html, o robots.txt e a pasta assets
+
+3) Vercel ou GitHub Pages
+   - Crie um projeto/repositório e envie os arquivos desta pasta
+
+DEPOIS DE PUBLICAR, COM O DOMÍNIO DEFINIDO
+  No index.html, troque  content="assets/compartilhar.jpg"
+  pelo endereço completo, por exemplo:
+  content="https://www.agencialume.com.br/assets/compartilhar.jpg"
+  Assim a prévia com a logo aparece certinha ao mandar o link no WhatsApp.
+
+Para mudar o número do WhatsApp, procure por 5563992463670 no
+index.html e troque em todos os lugares.
